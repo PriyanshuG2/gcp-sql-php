@@ -10,8 +10,8 @@
 		<title>
 			Ikea Desks
 		</title>
-		<!--
 		<?php
+		/*
 			$link = mysqli_connect('localhost', 'root', '');
 			
 			
@@ -56,8 +56,8 @@
 			$result= mysqli_query($link, $sql);
 			$row = mysqli_fetch_array($result);
 			$CEONumber=$row[0];
+		*/
 		?>
-		-->
 		<script>
 		
 		
