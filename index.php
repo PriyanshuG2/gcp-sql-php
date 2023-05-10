@@ -11,9 +11,8 @@
 			Ikea Desks
 		</title>
 		<?php
+			$link = mysqli_connect('34.130.224.5', 'root', '');
 		/*
-			$link = mysqli_connect('localhost', 'root', '');
-			
 			
 			if (!$link){
 				$output = 'Unable to connect to the database server ';
