@@ -12,7 +12,7 @@
 		</title>
 		<?php
 			$link = mysqli_connect('34.130.224.5', 'root', '');
-		/*
+		
 			
 			if (!$link){
 				$output = 'Unable to connect to the database server ';
@@ -30,7 +30,7 @@
 				$output = 'Unable to locate the deskassignment database ';
 				echo $output;
 			}
-			
+		/*
 			$sql= "SELECT MarkUpHome FROM basecosts";
 			$result= mysqli_query($link, $sql);
 			$row = mysqli_fetch_array($result);
